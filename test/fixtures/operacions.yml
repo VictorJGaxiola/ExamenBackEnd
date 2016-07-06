@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  operador: Pedro
+
+two:
+  operador: Juan
+
+three:
+  operador: Luis

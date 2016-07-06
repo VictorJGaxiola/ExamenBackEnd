@@ -1,7 +1,7 @@
 class CreateInventarios < ActiveRecord::Migration
   def change
     create_table :inventarios do |t|
-      t.serial :noSerie unique: true, null: false
+      t.integer :noSerie unique: true, null: false, index: true
       t.integer :size
       t.text :description
 
